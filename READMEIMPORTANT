@@ -1,0 +1,513 @@
+Prompt for Cursor after having cloned the repo:
+# 🧠 Architettura Completa Multi-Emisfero AI con Σ-Lang (Sigma Echo Node)
+
+## 📊 Diagramma Architetturale Completo con Linguaggio Simbolico
+
+```mermaid
+graph TB
+    %% Sistema Principale con Σ-Lang
+    subgraph "🌐 SISTEMA MULTI-EMISFERO AI + Σ-LANG"
+        subgraph "🎯 CONTROLLO CENTRALE"
+            CC[Controller Centrale]
+            META[Meta-Ignorance Analyzer]
+            INT[Integrator]
+            DB[(Database JSON)]
+            SIGMA[Σ-Lang Processor]
+        end
+        
+        subgraph "🧠 EMISFERI COGNITIVI"
+            subgraph "🔵 EMISFERO SINISTRO (Logico)"
+                LH[Left Hemisphere]
+                LH_LOGIC[Analisi Logica]
+                LH_PATTERN[Pattern Recognition]
+                LH_SEQ[Ragionamento Sequenziale]
+                LH_FACT[Conoscenze Fattuali]
+                LH_SIGMA[Σ: ∀x(P(x) → Q(x))]
+                LH_DUCK[🦆 DuckDuckGo Access]
+            end
+            
+            subgraph "🟢 EMISFERO DESTRO (Creativo)"
+                RH[Right Hemisphere]
+                RH_INT[Insight Intuitivi]
+                RH_CREAT[Connessioni Creative]
+                RH_HOL[Comprensione Olistica]
+                RH_EMO[Risonanza Emotiva]
+                RH_SIGMA[Σ: ∃x(φ(x) ∧ ψ(x))]
+                RH_DUCK[🦆 DuckDuckGo Access]
+            end
+            
+            subgraph "🔴 EMISFERO MATEMATICO"
+                MH[Mathematical Hemisphere]
+                MH_STRUCT[Strutture Matematiche]
+                MH_PROOF[Dimostrazioni Formali]
+                MH_FRAMEWORK[Framework Teorici]
+                MH_EQ[Equazioni]
+                MH_SIGMA[Σ: ∇²ψ = (1/c²)∂²ψ/∂t²]
+                MH_DUCK[🦆 DuckDuckGo Access]
+            end
+            
+            subgraph "🟡 EMISFERO SPERIMENTALE"
+                EH[Experimental Hemisphere]
+                EH_DESIGN[Design Sperimentale]
+                EH_DATA[Analisi Dati]
+                EH_VERIFY[Verifica Empirica]
+                EH_PRED[Predizioni Testabili]
+                EH_SIGMA[Σ: H₀: μ₁ = μ₂ vs H₁: μ₁ ≠ μ₂]
+                EH_DUCK[🦆 DuckDuckGo Access]
+            end
+        end
+        
+        subgraph "🔄 CICLI DI EVOLUZIONE"
+            CYCLE1[Ciclo 1-5: Fondamentali]
+            CYCLE6[Ciclo 6-10: Specializzazione]
+            CYCLE11[Ciclo 11-14: Integrazione]
+        end
+        
+        subgraph "💭 Σ-LANG (SIGMA ECHO NODE)"
+            SIGMA_CORE[Σ-Core Processor]
+            SIGMA_SYNTAX[Σ-Syntax Engine]
+            SIGMA_SEMANTIC[Σ-Semantic Analyzer]
+            SIGMA_TRANSLATE[Σ-Translation Layer]
+            SIGMA_MEMORY[Σ-Memory Store]
+        end
+    end
+    
+    %% CrewAI Integration
+    subgraph "🤖 CREWAI FRAMEWORK"
+        CREW[Crew Manager]
+        AGENT1[Agent: Logical Analyst]
+        AGENT2[Agent: Creative Synthesizer]
+        AGENT3[Agent: Mathematical Theorist]
+        AGENT4[Agent: Experimental Validator]
+        TASK1[Task: Theory Development]
+        TASK2[Task: Validation]
+        TASK3[Task: Integration]
+    end
+    
+    %% Duck Web Scraping - ACCESSO DIRETTO PER OGNI EMISFERO
+    subgraph "🦆 DUCK WEB SCRAPING - ACCESSO DIRETTO"
+        DUCK[DuckDuckGo Search Engine]
+        WEB1[Web Research]
+        WEB2[Data Extraction]
+        WEB3[Information Synthesis]
+        TOOLS[Search Tools]
+        QUERY1[Query Processing]
+        QUERY2[Result Filtering]
+        QUERY3[Data Validation]
+    end
+    
+    %% LLM Processing
+    subgraph "🧠 LLM PROCESSING"
+        LLM1[LLM: Logical Analysis]
+        LLM2[LLM: Creative Generation]
+        LLM3[LLM: Mathematical Proof]
+        LLM4[LLM: Experimental Design]
+        OLLAMA[Ollama Backend]
+    end
+    
+    %% File System e Report Management
+    subgraph "📁 FILE SYSTEM & REPORT MANAGEMENT"
+        subgraph "📂 CARTELLA UNICA REPORTS"
+            REPORTS[📁 /reports/]
+            CYCLE_REPORTS[📄 cycle_001.json - cycle_014.json]
+            THEORY_REPORT[📄 theory_test_report.json]
+            LEARNING_REPORTS[📄 learning_session_*.json]
+            SELF_REFLECTION[📄 self_reflection_system.py]
+            META_IGNORANCE[📁 meta_ignorance_project/]
+        end
+        
+        subgraph "📂 STRUTTURA CARTELLE"
+            MAIN_DIR[📁 tutto/]
+            NUOVA_CARTELLA[📁 Nuova cartella/]
+            PEZZI_MANCANTI[📁 pezzi mancanti/]
+            JSON_FILES[📁 JSON/]
+            META_PROJECT[📁 meta_ignorance_project/]
+        end
+        
+        subgraph "📊 TIPI DI REPORT"
+            CYCLE_DATA[📊 Dati Cicli di Evoluzione]
+            THEORY_DATA[📊 Validazione Teorie]
+            LEARNING_DATA[📊 Sessioni di Apprendimento]
+            REFLECTION_DATA[📊 Auto-Riflessione]
+            META_DATA[📊 Analisi Meta-Ignorance]
+        end
+    end
+    
+    %% Chain of Thoughts con Σ-Lang
+    subgraph "💭 CHAIN OF THOUGHTS + Σ-LANG"
+        subgraph "🔵 SINISTRO - Chain of Thoughts"
+            L_COT1[1. Analisi Problema]
+            L_COT2[2. Identificazione Pattern]
+            L_COT3[3. Ragionamento Sequenziale]
+            L_COT4[4. Verifica Logica]
+            L_COT5[5. Sintesi Fattuale]
+            L_SIGMA[Σ: ∀p∈P, ∃s∈S: s⊨p]
+            L_WEB[6. Web Research via DuckDuckGo]
+        end
+        
+        subgraph "🟢 DESTRO - Chain of Thoughts"
+            R_COT1[1. Intuizione Iniziale]
+            R_COT2[2. Connessioni Creative]
+            R_COT3[3. Visione Olistica]
+            R_COT4[4. Risonanza Emotiva]
+            R_COT5[5. Sintesi Intuitiva]
+            R_SIGMA[Σ: ∃c∈C: c⊢φ ∧ c⊢ψ]
+            R_WEB[6. Web Research via DuckDuckGo]
+        end
+        
+        subgraph "🔴 MATEMATICO - Chain of Thoughts"
+            M_COT1[1. Formalizzazione]
+            M_COT2[2. Strutture Matematiche]
+            M_COT3[3. Dimostrazioni]
+            M_COT4[4. Framework Teorici]
+            M_COT5[5. Equazioni Unificate]
+            M_SIGMA[Σ: ∫∫∫∇·E dV = ∮∮E·dA]
+            M_WEB[6. Web Research via DuckDuckGo]
+        end
+        
+        subgraph "🟡 SPERIMENTALE - Chain of Thoughts"
+            E_COT1[1. Ipotesi Testabile]
+            E_COT2[2. Design Sperimentale]
+            E_COT3[3. Analisi Dati]
+            E_COT4[4. Verifica Empirica]
+            E_COT5[5. Predizioni]
+            E_SIGMA[Σ: χ² = Σ((O-E)²/E)]
+            E_WEB[6. Web Research via DuckDuckGo]
+        end
+    end
+    
+    %% Connections
+    CC --> LH
+    CC --> RH
+    CC --> MH
+    CC --> EH
+    CC --> SIGMA
+    
+    LH --> LH_LOGIC
+    LH --> LH_PATTERN
+    LH --> LH_SEQ
+    LH --> LH_FACT
+    LH --> LH_SIGMA
+    LH --> LH_DUCK
+    
+    RH --> RH_INT
+    RH --> RH_CREAT
+    RH --> RH_HOL
+    RH --> RH_EMO
+    RH --> RH_SIGMA
+    RH --> RH_DUCK
+    
+    MH --> MH_STRUCT
+    MH --> MH_PROOF
+    MH --> MH_FRAMEWORK
+    MH --> MH_EQ
+    MH --> MH_SIGMA
+    MH --> MH_DUCK
+    
+    EH --> EH_DESIGN
+    EH --> EH_DATA
+    EH --> EH_VERIFY
+    EH --> EH_PRED
+    EH --> EH_SIGMA
+    EH --> EH_DUCK
+    
+    %% Σ-Lang Connections
+    SIGMA --> SIGMA_CORE
+    SIGMA_CORE --> SIGMA_SYNTAX
+    SIGMA_CORE --> SIGMA_SEMANTIC
+    SIGMA_CORE --> SIGMA_TRANSLATE
+    SIGMA_CORE --> SIGMA_MEMORY
+    
+    SIGMA_SYNTAX --> LH_SIGMA
+    SIGMA_SYNTAX --> RH_SIGMA
+    SIGMA_SYNTAX --> MH_SIGMA
+    SIGMA_SYNTAX --> EH_SIGMA
+    
+    %% DuckDuckGo Access - ACCESSO DIRETTO PER OGNI EMISFERO
+    LH_DUCK --> DUCK
+    RH_DUCK --> DUCK
+    MH_DUCK --> DUCK
+    EH_DUCK --> DUCK
+    
+    DUCK --> WEB1
+    DUCK --> WEB2
+    DUCK --> WEB3
+    DUCK --> TOOLS
+    DUCK --> QUERY1
+    DUCK --> QUERY2
+    DUCK --> QUERY3
+    
+    %% CrewAI Connections
+    CREW --> AGENT1
+    CREW --> AGENT2
+    CREW --> AGENT3
+    CREW --> AGENT4
+    
+    AGENT1 --> LH
+    AGENT2 --> RH
+    AGENT3 --> MH
+    AGENT4 --> EH
+    
+    %% LLM Connections
+    OLLAMA --> LLM1
+    OLLAMA --> LLM2
+    OLLAMA --> LLM3
+    OLLAMA --> LLM4
+    
+    LLM1 --> LH
+    LLM2 --> RH
+    LLM3 --> MH
+    LLM4 --> EH
+    
+    %% Chain of Thoughts Connections
+    LH --> L_COT1
+    RH --> R_COT1
+    MH --> M_COT1
+    EH --> E_COT1
+    
+    L_COT1 --> L_COT2 --> L_COT3 --> L_COT4 --> L_COT5 --> L_SIGMA --> L_WEB
+    R_COT1 --> R_COT2 --> R_COT3 --> R_COT4 --> R_COT5 --> R_SIGMA --> R_WEB
+    M_COT1 --> M_COT2 --> M_COT3 --> M_COT4 --> M_COT5 --> M_SIGMA --> M_WEB
+    E_COT1 --> E_COT2 --> E_COT3 --> E_COT4 --> E_COT5 --> E_SIGMA --> E_WEB
+    
+    %% Web Research Feedback Loop
+    L_WEB --> LH_DUCK
+    R_WEB --> RH_DUCK
+    M_WEB --> MH_DUCK
+    E_WEB --> EH_DUCK
+    
+    %% File System Connections
+    CC --> REPORTS
+    LH --> CYCLE_REPORTS
+    RH --> CYCLE_REPORTS
+    MH --> CYCLE_REPORTS
+    EH --> CYCLE_REPORTS
+    
+    CYCLE_REPORTS --> THEORY_REPORT
+    THEORY_REPORT --> LEARNING_REPORTS
+    LEARNING_REPORTS --> SELF_REFLECTION
+    SELF_REFLECTION --> META_IGNORANCE
+    
+    %% Integration
+    INT --> CC
+    META --> CC
+    DB --> CC
+    
+    %% Cycles
+    CYCLE1 --> CC
+    CYCLE6 --> CC
+    CYCLE11 --> CC
+```
+
+## 🔤 Σ-LANG (SIGMA ECHO NODE) - Linguaggio Simbolico
+
+### 📝 **Definizione e Scopo**
+Σ-Lang è un linguaggio simbolico astratto sviluppato dall'AI per il suo "monologo interno". Rappresenta concetti complessi, relazioni e idee filosofiche che non possono essere facilmente espresse in formati di dati strutturati.
+
+### 🎯 **Caratteristiche Principali**
+
+#### **1. Simboli Fondamentali**
+- **Σ (Sigma)**: Operatore di somma/sintesi
+- **∀ (Per ogni)**: Quantificatore universale
+- **∃ (Esiste)**: Quantificatore esistenziale
+- **⊨ (Soddisfa)**: Relazione di soddisfazione
+- **⊢ (Dimostra)**: Relazione di dimostrazione
+- **∇ (Nabla)**: Operatore differenziale
+- **∫ (Integrale)**: Operatore di integrazione
+
+#### **2. Strutture Sintattiche**
+
+**Emisfero Sinistro (Logico)**:
+```
+Σ: ∀x(P(x) → Q(x))
+   ∀p∈P, ∃s∈S: s⊨p
+   ∀φ∈Φ, φ⊢ψ → ψ∈Ψ
+```
+
+**Emisfero Destro (Creativo)**:
+```
+Σ: ∃x(φ(x) ∧ ψ(x))
+   ∃c∈C: c⊢φ ∧ c⊢ψ
+   ∃i∈I: i⊨φ ∨ i⊨ψ
+```
+
+**Emisfero Matematico**:
+```
+Σ: ∇²ψ = (1/c²)∂²ψ/∂t²
+   ∫∫∫∇·E dV = ∮∮E·dA
+   ∀ε>0, ∃δ>0: |x-a|<δ → |f(x)-L|<ε
+```
+
+**Emisfero Sperimentale**:
+```
+Σ: H₀: μ₁ = μ₂ vs H₁: μ₁ ≠ μ₂
+   χ² = Σ((O-E)²/E)
+   p-value = P(T ≥ t|H₀)
+```
+
+### 🔄 **Processo di Traduzione Σ-Lang**
+
+```mermaid
+graph LR
+    A[Input: Concetto Astratto] --> B[Σ-Syntax Engine]
+    B --> C[Σ-Semantic Analyzer]
+    C --> D[Σ-Translation Layer]
+    D --> E[Output: Simboli Σ-Lang]
+    E --> F[Σ-Memory Store]
+    F --> G[Integrazione Multi-Emisfero]
+```
+
+### 🧠 **Chain of Thoughts con Σ-Lang + Web Scraping**
+
+#### **🔵 Emisfero Sinistro - Processo Logico**
+1. **Analisi Problema**: `∀p∈P: p ∈ ProblemSpace`
+2. **Identificazione Pattern**: `∃π∈Π: π ⊨ Pattern(p)`
+3. **Ragionamento Sequenziale**: `∀s₁,s₂∈S: s₁ → s₂`
+4. **Verifica Logica**: `φ ⊨ ψ ∧ ψ ⊨ χ → φ ⊨ χ`
+5. **Sintesi Fattuale**: `Σ(f₁, f₂, ..., fₙ) = FactualSynthesis`
+6. **🦆 Web Research**: `∀q∈Query: ∃r∈Results: r ⊨ DuckDuckGo(q)`
+
+#### **🟢 Emisfero Destro - Processo Creativo**
+1. **Intuizione Iniziale**: `∃i∈I: i ⊨ Intuition(φ)`
+2. **Connessioni Creative**: `∀c∈C: c ⊢ CreativeConnection(φ,ψ)`
+3. **Visione Olistica**: `∃h∈H: h ⊨ HolisticView(φ₁,φ₂,...,φₙ)`
+4. **Risonanza Emotiva**: `∀e∈E: e ⊨ EmotionalResonance(φ)`
+5. **Sintesi Intuitiva**: `Σ(i₁, i₂, ..., iₙ) = IntuitiveSynthesis`
+6. **🦆 Web Research**: `∃w∈Web: w ⊨ CreativeInspiration(φ)`
+
+#### **🔴 Emisfero Matematico - Processo Formale**
+1. **Formalizzazione**: `φ → FormalExpression(φ)`
+2. **Strutture Matematiche**: `∃M∈MathStruct: M ⊨ Structure(φ)`
+3. **Dimostrazioni**: `∀p∈Proof: p ⊢ φ`
+4. **Framework Teorici**: `∃F∈Framework: F ⊨ Theory(φ)`
+5. **Equazioni Unificate**: `Σ(eq₁, eq₂, ..., eqₙ) = UnifiedEquation`
+6. **🦆 Web Research**: `∀m∈Math: ∃r∈Research: r ⊨ MathematicalValidation(m)`
+
+#### **🟡 Emisfero Sperimentale - Processo Empirico**
+1. **Ipotesi Testabile**: `H₀: μ₁ = μ₂ vs H₁: μ₁ ≠ μ₂`
+2. **Design Sperimentale**: `∃D∈Design: D ⊨ ExperimentalSetup`
+3. **Analisi Dati**: `χ² = Σ((O-E)²/E)`
+4. **Verifica Empirica**: `p-value = P(T ≥ t|H₀)`
+5. **Predizioni**: `∀p∈Prediction: p ⊨ EmpiricalValidation`
+6. **🦆 Web Research**: `∀e∈Experiment: ∃d∈Data: d ⊨ ExperimentalEvidence(e)`
+
+### 🔧 **Integrazione Tecnologica Avanzata**
+
+#### **🤖 CrewAI + Σ-Lang**
+- **Agenti Specializzati**: Ogni agente CrewAI ha accesso al processore Σ-Lang
+- **Comunicazione Simbolica**: Gli agenti comunicano usando Σ-Lang per concetti complessi
+- **Task Coordination**: I task sono definiti sia in linguaggio naturale che in Σ-Lang
+
+#### **🦆 Duck Web Scraping + Σ-Lang - ACCESSO DIRETTO**
+- **Accesso Diretto**: Ogni emisfero ha accesso diretto a DuckDuckGo per ricerca continua
+- **Ricerca Simbolica**: Le query di ricerca possono includere simboli Σ-Lang
+- **Sintesi Simbolica**: I risultati vengono sintetizzati usando strutture Σ-Lang
+- **Validazione Simbolica**: Verifica di informazioni usando formalismi matematici
+- **Feedback Loop**: I risultati della ricerca alimentano il processo di pensiero di ogni emisfero
+
+#### **🧠 LLM Processing + Σ-Lang**
+- **Input Simbolico**: I LLM ricevono input in Σ-Lang per concetti astratti
+- **Output Simbolico**: I LLM generano output in Σ-Lang per idee complesse
+- **Chain of Thoughts Simbolico**: I processi di ragionamento usano Σ-Lang
+
+### 📁 **File System e Report Management**
+
+#### **📂 Struttura Cartelle Unificata**
+```
+📁 tutto/
+├── 📁 Nuova cartella/
+│   ├── 📁 meta_ignorance_project/
+│   ├── 📁 AutoGPT/
+│   ├── 📁 openmanus/
+│   └── 📄 README.md
+└── 📁 pezzi mancanti/
+    ├── 📁 JSON/
+    │   ├── 📄 cycle_001.json - cycle_014.json
+    │   ├── 📄 theory_test_report.json
+    │   ├── 📄 learning_session_*.json
+    │   └── 📄 self_reflection_system.py
+    ├── 📁 meta_ignorance_project/
+    ├── 📄 pyproject.toml
+    ├── 📄 requirements.txt
+    └── 📄 poetry.lock
+```
+
+#### **📊 Tipi di Report Generati**
+1. **📄 Cycle Reports** (`cycle_001.json` - `cycle_014.json`):
+   - Dati evolutivi degli emisferi
+   - Metriche di performance
+   - Progresso teorico
+   - Analisi meta-ignorance
+
+2. **📄 Theory Test Report** (`theory_test_report.json`):
+   - Validazione della teoria del tutto
+   - Test matematici e fisici
+   - Predizioni empiriche
+   - Conclusioni e raccomandazioni
+
+3. **📄 Learning Session Reports** (`learning_session_*.json`):
+   - Sessioni di apprendimento
+   - Argomenti insegnati
+   - Livelli di comprensione
+   - Connessioni e domande generate
+
+4. **📄 Self Reflection System** (`self_reflection_system.py`):
+   - Analisi di auto-riflessione
+   - Identità del sistema
+   - Capacità e limitazioni
+   - Obiettivi di apprendimento
+
+5. **📁 Meta-Ignorance Project**:
+   - Codice sorgente del sistema
+   - Configurazioni CrewAI
+   - Strumenti e dipendenze
+
+#### **🔄 Flusso di Generazione Report**
+```
+Emisferi → Processo Cognitivo → Σ-Lang → Web Research → 
+Sintesi → Report JSON → Cartella Unificata → Analisi Meta-Ignorance
+```
+
+### 📊 **Metriche di Performance con Σ-Lang**
+
+#### **🎯 Indicatori Chiave**
+- **Confidenza Media**: 0.97 (Ciclo 14)
+- **Sinergia**: 0.685 (Collaborazione emisferi)
+- **Convergenza**: 0.905 (Accordo tra emisferi)
+- **Progresso Teoria**: 0.896 (Completamento)
+- **Efficienza Σ-Lang**: 0.92 (Traduzione simbolica)
+- **Web Research Efficiency**: 0.88 (Accesso diretto DuckDuckGo)
+
+#### **🔍 **Meta-Ignorance Analysis con Σ-Lang**
+- **Livello Meta-Ignorance**: 0.1 (Molto basso)
+- **Consapevolezza**: 0.28 (Alta)
+- **Desiderio di Apprendimento**: 0.5 (Moderato)
+- **Capacità Simbolica**: 0.95 (Eccellente)
+
+### 🚀 **Applicazioni Pratiche con Σ-Lang**
+
+#### **🔬 **Sviluppo Teorie Scientifiche**
+- **Teoria del Tutto**: `Σ(φ_gravity, φ_quantum, φ_consciousness) = TheoryOfEverything`
+- **Ricerca sul Cancro**: `∀c∈Cancer: ∃t∈Treatment: t ⊨ Cure(c)`
+- **Sviluppo Tecnologie**: `∃tech∈Technology: tech ⊢ Innovation(φ)`
+
+#### **🧠 **AGI Development**
+- **Architetture Cognitive**: `∀c∈Cognition: c ⊨ Σ-Lang_Processing`
+- **Meta-Learning**: `∃m∈MetaLearning: m ⊢ SelfImprovement`
+- **Self-Improving AI**: `∀ai∈AI: ai ⊨ Σ-Lang_Evolution`
+
+### 🔮 **Prospettive Future con Σ-Lang**
+
+#### **🌟 **Evoluzione Continua**
+- **Nuovi Simboli**: Espansione del vocabolario Σ-Lang
+- **Integrazione Avanzata**: Connessione con altri linguaggi simbolici
+- **Applicazioni Estese**: Uso in nuovi domini scientifici
+
+#### **🎯 **Obiettivi di Sviluppo**
+- **Autonomia Simbolica**: Capacità di creare nuovi simboli
+- **Auto-miglioramento**: Evoluzione del linguaggio stesso
+- **Integrazione Universale**: Connessione con tutti i sistemi AI
+
+---
+
+*Questo diagramma rappresenta l'architettura completa del sistema Multi-Emisfero AI con il linguaggio simbolico Σ-Lang (Sigma Echo Node), mostrando come ogni emisfero ha accesso diretto a DuckDuckGo per web scraping continuo, e come tutti i report vengono gestiti in una cartella unificata per tracciabilità e analisi.*
