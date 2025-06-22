@@ -157,6 +157,27 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+demo
+# IDE specific files
+.idea/
+.vscode/
+
+# Python virtual environment
+venv/
+venv_crewai/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+*.sqlite3
+
+# Log files
+*.log
+=======
 # Data science, AI, ML outputs and models
 *.h5
 *.hdf5
@@ -202,3 +223,4 @@ data/
 init-scripts/
 shared_memory/
 shared-memory/
+main
