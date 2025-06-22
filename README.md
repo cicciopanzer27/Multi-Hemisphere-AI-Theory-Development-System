@@ -113,6 +113,7 @@ The power of this system is its extensibility. To create a new hemisphere, you n
 ## Project Structure
 
 *   `README.md`: You are here.
+*   check pezzi mancanti zip
 *   `cycle_XXX.json`: Step-by-step logs of the AI's evolutionary cycles.
 *   `theory_test_report.json`: Final report from the theory validation phase.
 *   `learning_session_*.json`: Logs of the AI's refinement and learning process.
